@@ -24,7 +24,6 @@ document.getElementById('gmail').addEventListener('click', () => {
     window.location.href = mailtoLink;
 });
 
-document.getElementById('phone').addEventListener('click', () => {
-    let phoneNumber = '+84868063569'; // Thay bằng số điện thoại của bạn
-    window.location.href = `tel:${phoneNumber}`;
+document.getElementById('bluedragon').addEventListener('click', () => {
+    window.open('https://www.bluedragonwalk.org/dinh-phat-phat', '_blank');
 });
